@@ -2,7 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
-## my code for inverse matrix
+## my code for inverse matrix, inout must be a matrix
 makeCacheMatrix <- function(x = matrix()) {
     i <- NULL
     set <- function(y) {
@@ -32,3 +32,6 @@ cacheSolve <- function(x, ...) {
   x$setinv(i)
   m
 }
+
+        
+# end of code
